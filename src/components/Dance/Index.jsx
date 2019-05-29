@@ -4,9 +4,12 @@ import 'rc-texty/assets/index.css';
 import './Index.css'
 
 class Dance extends Component{
-  state = {
-    show: true
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      show: true
+    }
+  }
   getEnter = (e) => {
     switch (e.index) {
       case 0:
