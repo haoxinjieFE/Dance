@@ -22,6 +22,7 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.9.1",
     "global": "^4.3.2",
+    "rc-texty": "^0.2.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "rollup": "^0.62.0",
