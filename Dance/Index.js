@@ -88,7 +88,7 @@ class Dance extends Component{
   render(){
     return (
       <div className="texty-demo" style={{ marginTop: 16 }}>
-        <p style={{ marginTop: 16 }}><button className="btn" onClick={this.onClick}>start</button></p>
+        <p style={{ marginTop: 16 }}><button className="btn" size="large" onClick={this.onClick}>start</button></p>
         <Texty enter={this.getEnter} leave={this.getEnter}>{this.state.show && this.props.children}</Texty>
       </div>
     );
