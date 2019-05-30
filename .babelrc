@@ -1,0 +1,11 @@
+{
+  "presets": ["react-app", ["latest", {
+    "es2015": {
+      "modules": false
+    }
+  }]],
+  "plugins": [
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    "external-helpers"
+  ]
+}
